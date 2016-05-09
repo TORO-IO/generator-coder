@@ -1,0 +1,23 @@
+{
+  "extends": "eslint:recommended",
+  "plugins": ["angular"],
+  "rules": {
+    "angular/no-service-method": 0
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "globals": {
+    "angular": true,
+    "module": true,
+    "inject": true
+  },
+  "no-unused-vars": [1, { "vars": "local", "args": "after-used" }],
+  "no-undef": ["error", { "typeof": false }],
+}

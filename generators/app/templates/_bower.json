@@ -1,0 +1,9 @@
+{
+  "name": "<%= appname.toLowerCase().replace(/\s/g, '-') %>",
+  "version": "<%= appversion %>",
+  "description": "<%= description %>",
+  "dependencies": {
+    "angular": "<%= ngversion %>",
+    "angular-mocks": "<%= ngversion %>"
+  }
+}

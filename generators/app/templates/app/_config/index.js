@@ -1,0 +1,2 @@
+
+angular.module('coder.config', [])

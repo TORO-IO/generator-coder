@@ -1,0 +1,14 @@
+
+import "_components/index.js"
+import "_config/index.js"
+import "_filters/index.js"
+import "_services/index.js"
+
+angular.modules('coder.modules', [
+<% appModules.forEach(function (module) { -%>  '<%= module -%>',
+<%})-%>
+  'coder.components',
+  'coder.config',
+  'coder.filters',
+  'coder.services'
+])

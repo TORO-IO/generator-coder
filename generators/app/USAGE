@@ -1,0 +1,25 @@
+Description:
+    Creates a default AngularJS app
+
+Example:
+    yo pongstr
+
+    This will create:
+      .editorconfig
+      .eslintrc
+      .gitignore
+
+      gulpfile.js
+      bower.json
+      package.json
+
+      src/app/
+      src/app/index.js
+      src/app/index.html
+
+      src/scss/
+      src/scss/bootstrap (symlink)
+      src/scss/bourbon   (symlink)
+      src/scss/_variables.scss
+      src/scss/_bootstrap.scss
+      src/scss/styles.scss

@@ -1,0 +1,7 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "no-unused-vars": [1, { "vars": "local", "args": "after-used" }],
+}
